@@ -1,0 +1,42 @@
+.admin__app {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.main__container {
+  width: 80%;
+}
+
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+
+.operation {
+  display: flex;
+}
+
+.btn {
+  padding-left: 10px;
+}
+
+.btn-danger {
+  border-radius: 10px;
+  font-size: 18px;
+  height: 5%;
+  margin-top:20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected > td,
+.ant-table-tbody > tr.ant-table-row-selected:hover > td {
+  background: #eee;
+}
+.table__content{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
